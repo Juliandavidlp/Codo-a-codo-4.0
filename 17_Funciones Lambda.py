@@ -37,6 +37,7 @@ print(cuad(5))
 #Llamar la función anónima a partir del identificador, 
 # como una función común, digamos.
 
+
 """
 Un ejemplo de uso
 
