@@ -182,6 +182,7 @@ class Persona:
     def constructor(self,nombre,edad): #El método constructor.
         self.nombre=nombre
         self.edad=edad
+        #La palabra "self" antecede al nombre del atributo
         
     def imprimir(self): #Un método normal.
         print(f"Hola {self.nombre}, cómo andás? Tenés {self.edad} años.")
