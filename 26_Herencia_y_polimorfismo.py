@@ -319,7 +319,7 @@ Una imagen vale más que mil palabras. Es por eso que se creó la generación de
 para forjar un lenguaje visual común en el complejo mundo del desarrollo de software que también fuera comprensible por los usuarios de negocios 
 y quienquiera que desee entender un sistema.
 
-Más info. en https://www.lucidchart.com/pages/es/que-es-el-lenguaje-unificado-de-modelado-uml
-             https://informaticapc.com/poo/uml.php
-             https://elvex.ugr.es/decsai/java/pdf/3c-relaciones.pdf
+                    Más info. en https://www.lucidchart.com/pages/es/que-es-el-lenguaje-unificado-de-modelado-uml
+                                 https://informaticapc.com/poo/uml.php
+                                 https://elvex.ugr.es/decsai/java/pdf/3c-relaciones.pdf
 """
