@@ -9,14 +9,9 @@ totalAlumnos= cantMujeres + cantHombres
 porcentajeHombres= round(cantHombres / totalAlumnos * 100, 2)
 porcentajeMujeres= round(cantMujeres / totalAlumnos * 100, 2)
 
-
+# La función round() en Python redondea un número a una precisión dada por el número
+# de cifras decimales indicadas como argumento. Si no se indica el número de cifras decimales, se toma 0 como valor de referencia.
+# Su sintaxis es la siguiente: round(número, ndigitos)
 
 print ("El total de alumnos es: ", totalAlumnos)
-print ({porcentajeHombres}, "son hombres y ", {porcentajeMujeres}, "son mujeres.")
-
-
-
-
-
-
-
+print ({porcentajeHombres}, "son hombres y", {porcentajeMujeres}, "son mujeres.")
