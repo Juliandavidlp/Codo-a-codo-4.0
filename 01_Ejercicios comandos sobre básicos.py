@@ -14,4 +14,4 @@ porcentajeMujeres= round(cantMujeres / totalAlumnos * 100, 2)
 # Su sintaxis es la siguiente: round(número, ndigitos)
 
 print ("El total de alumnos es: ", totalAlumnos)
-print ({porcentajeHombres}, "son hombres y", {porcentajeMujeres}, "son mujeres.")
+print (f"{porcentajeHombres}, son hombres y, {porcentajeMujeres}, son mujeres.")
