@@ -1,23 +1,17 @@
-# -*- coding: utf-8 -*-
-
 """
-# Un para con una tupla:
+# ¿Cómo recorrer una tupla con un for?
 
-tupla=(0,1,2,3,4)
+# tupla=(0,1,2,3,4,5)
 
-for i in (tupla):     #¿Cómo recorrer una tupla? Podés hacer esto o pasar como parámetro el contenido de la tupla (o,1,2,3,4).
-    print (i)          
+# for i in (tupla):
+#     print(i)
 
+# Mostrar los números pares del uno al diez con un "para" usando la función range:
+lista=[1,2,3,4,5,6,7,8,9,10]
 
-
-# Mostrar los números pares del uno al diez con un "para" usando la función "range":
- 
-lista = [1,2,3,4,5,6,7,8,9,10,11]
-
-for lista in range(0,11,2):   #Cuando trabajás con la función range pasás como parámetro el rango, la sintaxis es distinta.
-    print (lista)
-
-
+for lista in range(0,11,2):
+    print(lista)
+    
 
 # ¿Cómo hacer un ciclo "mientras" en Python contando hasta cinco?
 
