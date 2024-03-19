@@ -15,12 +15,12 @@ for lista in range(0,11,2):
 
 # ¿Cómo hacer un ciclo "mientras" en Python contando hasta cinco?
 
-variable=0
+contador=0
 
-while variable<=5:
-
-    print (variable)
-    variable= variable+1     #La sintaxis es "while" + expresión booleana + : , y después hay que imprimir la variable y el contador respectivo.
+while contador <=5:
+    print(contador)
+    contador+=1
+    
 
 """
 
