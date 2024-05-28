@@ -34,3 +34,6 @@ print(c)
 
 
 """
+# Match Case en Python
+
+# https://www.youtube.com/watch?v=Qstx0UArpH8
