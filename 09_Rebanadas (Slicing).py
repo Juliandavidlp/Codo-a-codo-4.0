@@ -60,11 +60,11 @@ pelicula_3= ("Interestelar", 2014, "Nolan")
 
 print(pelicula[2])
 
-#Despempaquetado parcial de elementos finales
+#Despempaquetado parcial ignorando elementos finales
 titulo_2, año_2", *_ = película_2
 print(f"Título2: {titulo_2}, año_2: {año_2}")
 
-#Desempaquetado parcial de elementos intermedios
+#Desempaquetado parcial ignorando elementos intermedios
 titulo_3, _, director_3 = película_3
 print(f"Título3: {titulo_3}, director3: {director_3}")
 
