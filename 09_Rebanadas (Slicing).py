@@ -48,3 +48,24 @@ Luego el anteúltimo se accede con la sintaxis:
 """
 
 print(lista1[-2]) # 5
+
+"""
+Respecto a las tuplas, se puede hacer un desempaquetado total asignándole distintas variables a los distintos elementos de un conjunto.
+O, hacer un desempaquetado parcial ignorando elementos intermedios o finales. Por ejemplo, dada una tupla con múltiples valores:
+"""
+
+pelicula= ("Titanic", 1997, "Cameron")
+pelucula_2= ("El padrino", 1972, "Coppola")
+pelicula_3= ("Interestelar", 2014, "Nolan")
+
+print(pelicula[2])
+
+#Despempaquetado parcial de elementos finales
+titulo_2, año_2", *_ = película_2
+print(f"Título2: {titulo_2}, año_2: {año_2}")
+
+#Desempaquetado parcial de elementos intermedios
+titulo_3, _, director_3 = película_3
+print(f"Título3: {titulo_3}, director3: {director_3}")
+
+
