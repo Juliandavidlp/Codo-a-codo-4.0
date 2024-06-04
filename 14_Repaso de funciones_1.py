@@ -70,4 +70,36 @@ Los parámetros opcionales se indican con el operador ‘=’, tienen un valor p
 Se puede modificar el orden de los argumentos con el que se invoca a una función si se indica el nombre de los parámetros. Los parámetros con nombre siempre aparecen después de los posicionales.
 """
 
+#Definicion de una función
+def hello_world():
+    print('Hola mundo con funciones 🐍')
+
+#Llamar la función
+hello_world()
+
+#Una función con parametros con un parámetro por defecto
+def show_movies(movies_list =[]):
+    #Otra notación:
+    #def show_movies(movies_list:list =[]):
+    """
+    Función para mostrar peliculas ~
+    Parameter:
+        movies_list (list): una lista de películas.
+    """
+    if type(movies_list)== list:
+        for movie in movies_list:
+            print(f'Pelicula: {movie}')
+    else:
+        print('No envió una lista.')
+
+
+movies = ["Batman","Avatar","Titanic","El padrino"]
+
+#Llamar una funcion con un argumento:
+#show_movies(movies)
+
+# show_movies() Ojo, esto en este caso dá error!
+# show_movies(['lo que sea', 34, 68, 9])
+
+
 
