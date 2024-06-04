@@ -116,5 +116,25 @@ def add_movie(list_movies,movie):
 add_movie(movies,'La llegada')
 show_movies(movies)
 
+#Una variable global
+other_movie = 'Harry potter'
+
+def add_movie_dos(list_movies):
+    print(other_movie)
+    my_movie = input('Ingrese una pelicula: ')
+    list_movies.append(my_movie)
+    
+#add_movie_dos(movies)
+
+#Calcular el promedio y devolver un valor con return:
+ratings = [3,4,1,5,3,2]
+
+def calc_average(ratings_list):
+    sum_average = sum(ratings_list)
+    avg =  sum_average / len(ratings_list)
+    return avg
+
+avg_calc = calc_average(ratings)
+print(f'El promedio de calificaciones es: {avg_calc}')
 
 
