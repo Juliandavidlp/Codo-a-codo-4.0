@@ -101,5 +101,20 @@ movies = ["Batman","Avatar","Titanic","El padrino"]
 # show_movies() Ojo, esto en este caso dá error!
 # show_movies(['lo que sea', 34, 68, 9])
 
+movies = ["Batman","Avatar","Titanic","El padrino"]
+
+#Llamar una funcion con un argumento:
+#show_movies(movies)
+
+# show_movies() Ojo, esto en este caso dá error!
+# show_movies(['lo que sea', 34, 68, 9])
+
+#list_movies al ser una lista, pasa por referencia:
+def add_movie(list_movies,movie):
+    list_movies.append(movie)
+
+add_movie(movies,'La llegada')
+show_movies(movies)
+
 
 
